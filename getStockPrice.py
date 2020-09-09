@@ -39,7 +39,7 @@ def sendEmail():
     server.starttls()
     server.ehlo()
 
-    pwd = "wihazgtprwpoqpfg"
+    pwd = "**************"
     emailAddress = 'kuranku191952996@gmail.com'
 
     server.login(emailAddress, pwd)
